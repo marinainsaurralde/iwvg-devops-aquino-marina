@@ -11,6 +11,7 @@
 
 ### Estado del código
 [![CI](https://github.com/marinainsaurralde/iwvg-devops-aquino-marina/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/marinainsaurralde/iwvg-devops-aquino-marina/actions/workflows/continuous-integration.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marinainsaurralde_iwvg-devops-aquino-marina&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=marinainsaurralde_iwvg-devops-aquino-marina)
 
 
 ### Tecnologías necesarias
