@@ -1,0 +1,11 @@
+name: CD
+
+on:
+  push:
+    branches:
+      - postgres
+
+jobs:
+  cd:
+    name: Deploy Docker Postgres on AWS Lightsail
+    runs-on: ubuntu-22.04
