@@ -1,7 +1,7 @@
 name: CD
 on:
   push:
-    branches: ['master']
+    branches: ['staging']
 
 env:
   REPOSITORY: ${{ github.repository }} # <user>/<repo>
@@ -9,7 +9,7 @@ env:
 
 jobs:
   cd:
-    name: Build & Push GitHub Package & Deploy on Render Docker Image
+    name: Build & Push GitHub Package
     runs-on: ubuntu-22.04
     steps:
       - name: ⬇️ Checkout repository
