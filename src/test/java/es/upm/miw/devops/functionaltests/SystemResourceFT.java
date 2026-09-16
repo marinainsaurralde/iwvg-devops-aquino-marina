@@ -27,7 +27,7 @@ class SystemResourceFT {
     @Test
     void testReadBadge() {
         webTestClient.get()
-                .uri(SystemResource.VERSION_BADGE)
+                .uri(SystemResource.SYSTEM + SystemResource.VERSION_BADGE)
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody(String.class)
@@ -39,7 +39,7 @@ class SystemResourceFT {
     @Test
     void testReadInfo() {
         webTestClient.get()
-                .uri("/")
+                .uri(SystemResource.SYSTEM)
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody(String.class)
